@@ -21,7 +21,8 @@
                 "input": "public"
               }
             ],
-            "styles": [
+            "styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css",
+            "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "src/styles.css"
             ],
             "server": "src/main.server.ts",
@@ -79,12 +80,15 @@
                 "input": "public"
               }
             ],
-            "styles": [
+            "styles": [            
               "src/styles.css"
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ea2cb3c9-33ea-4ba5-88c0-929770275aa6"
   }
 }
