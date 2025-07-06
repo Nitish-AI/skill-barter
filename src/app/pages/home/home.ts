@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { Navbar } from '../../components/navbar/navbar';
-import { Footer } from '../../components/footer/footer';
-import { RouterOutlet } from '@angular/router';
-
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [RouterOutlet, Navbar, Footer],
+  standalone: true,
+  imports: [RouterModule],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
